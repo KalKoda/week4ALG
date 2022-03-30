@@ -1,6 +1,7 @@
 #include "Reverse.h"
 #include <math.h>
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -27,13 +28,13 @@ int Reverse::reverseDigit(int value){
 }
 
 std::string Reverse::reverseString(std::string letters){
-
-    if (letters.length() == 1) {
+        if (letters.length() == 1) {
         return letters;
-    }
-    if (letters.length() > 1) {
-        return reverseString(letters.substr(1,letters.length())) + letters.at(0);
-    }else {
-        return "ERROR";
-    }
+        }
+        if (letters.length() > 1) {
+            return reverseString(letters.substr(1,letters.length())) + letters.at(0);
+        }else {
+            return "error";
+        }
+
 }
