@@ -16,8 +16,6 @@ int Reverse::reverseDigit(int value){
     // Base condition
     if(value <= 0)
         return -1;
-    cout << "digi: " << digit << endl;
-    cout << "nomm2: " << (value%10 * pow(10, digit)) << endl;
 
     if (digit == 0 ){
         return (((value%10 * pow(10, digit)) + reverseDigit(value/10)) + 1 );
