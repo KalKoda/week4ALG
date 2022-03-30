@@ -8,7 +8,7 @@ int main(){
     Reverse Re;
     Truckloads Tl;
 
-    cout << Re.reverseDigit(12345) << endl;
+    cout << Re.reverseDigit(12) << endl;
     cout << Re.reverseString("Hello") << endl;
     cout << Tl.numTrucks(1024,5) << endl;
 
