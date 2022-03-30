@@ -12,8 +12,8 @@ int main(){
 
     //cout << Re.reverseDigit(12) << endl;
     //cout << Re.reverseString("HELLO") << endl;
-    cout << Tl.numTrucks(1000,5) << endl;
-    cout << Ef.numTrucks(1000,5) << endl;
+    cout << Tl.numTrucks(40000000,2) << endl;
+    cout << Ef.numTrucks(40000000,2) << endl;
 
     return 0;
 }
